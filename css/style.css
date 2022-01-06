@@ -36,10 +36,6 @@ body {
   margin-top: -40px;
 }
 
-.hero .hero-Content p {
-  width: 550px;
-}
-
 .hero-Content h1.hero-title {
   font-size: 3rem;
   color: #333333;
@@ -56,6 +52,7 @@ body {
   font-size: 1rem;
   color: #3e3e3e;
   margin-bottom: 20px;
+  width: 550px;
 }
 
 .btn {
@@ -77,6 +74,15 @@ body {
 
 /* start Mission / Vission / Goals section============================================ */
 
+.mission-section-title {
+  font-size: 2.5rem;
+  color: #1f1c44;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.mission-section-title span {
+  color: #ffad5a;
+}
 .mission-vission-goals {
   margin-top: 100px;
 }
@@ -110,14 +116,14 @@ body {
 }
 .mission-vission-goals .target-point .card p {
   color: #424242;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 /* start  Develope Without Limits section 
 
                 and  
 
-start Know our Global Community section
+start Know our Global Community section ........
 
 */
 
@@ -138,6 +144,7 @@ start Know our Global Community section
 .project .project-img {
   position: relative;
 }
+
 .project .project-devolop-img::after {
   content: "";
   background-image: url("../images/shapes/shape-1.png");
@@ -169,9 +176,90 @@ start Know our Global Community section
 .project .project-content p {
   width: 700px;
   color: #3e3e3e;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: 15px;
   line-height: 25px;
+}
+
+/* start My Portfolio Section ================================= */
+.my-portfolio {
+  text-align: center;
+  margin-top: 100px;
+}
+.my-portfolio span {
+  color: #ffad5a;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.my-portfolio h2 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #3c3e41;
+}
+.protfolio {
+  display: flex;
+  justify-content: space-around;
+}
+.portfolio-items {
+  text-align: center;
+  background-color: #fafbfc;
+  border-radius: 10px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 10px 10px 15px #e3ebf1, -10px -10px 15px #e3ebf1;
+}
+
+.portfolio-items img {
+  width: 220px;
+  border-radius: 10px;
+}
+.portfolio-items .protfolio-content .catagory-and-hard-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+.portfolio-items .protfolio-content .catagory-and-hard-count a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.portfolio-items .protfolio-content .catagory-and-hard-count a img {
+  width: 15px;
+  margin: 0 5px;
+}
+.portfolio-items .protfolio-content .catagory-and-hard-count span {
+  font-size: 0.7rem;
+  color: #ffad5a;
+}
+.portfolio-items .protfolio-content h3 {
+  color: #3c3e41;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+/* let's go to Let's go to Purchase ========================= */
+
+.lets-go-to-purchase {
+  margin-top: 50px;
+}
+.lets-go-to {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lets-go-to span {
+  letter-spacing: 2px;
+  color: #3c3e41;
+}
+.lets-go-to h2 {
+  font-size: 2rem;
+  padding: 10px 0;
+  color: #3c3e41;
 }
 
 /* footer Section Mission 2022 ======================================== */
@@ -188,6 +276,7 @@ start Know our Global Community section
   font-family: "Lobster", cursive;
   color: white;
   margin-bottom: 20px;
+  letter-spacing: 2px;
 }
 
 .Mission-2022 .footer-content h2 span {
@@ -197,4 +286,5 @@ start Know our Global Community section
 .Mission-2022 .footer-content p {
   font-size: 0.8rem;
   color: #d9dbe1;
+  letter-spacing: 1px;
 }
