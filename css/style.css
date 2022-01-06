@@ -1,14 +1,200 @@
 /* import Fonts =========================== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* reset css ================================ */
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* start Hero Section  ===================== */
+
+.hero-section {
+  margin-top: 50px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-image img {
+  width: 400px;
+  margin-top: -40px;
+}
+
+.hero .hero-Content p {
+  width: 550px;
+}
+
+.hero-Content h1.hero-title {
+  font-size: 3rem;
+  color: #333333;
+  border-left: 4px solid #ff5959;
+  padding-left: 15px;
+  line-height: 64px;
+  border-radius: 1px;
+  margin-bottom: 20px;
+}
+.hero-Content .hero-title span {
+  color: #ffad5a;
+}
+.hero-section p {
+  font-size: 1rem;
+  color: #3e3e3e;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 16px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: #ff5959;
+  color: white;
+}
+
+/* start Mission / Vission / Goals section============================================ */
+
+.mission-vission-goals {
+  margin-top: 100px;
+}
+
+.target-point .card img {
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.target-point {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mission-vission-goals .target-point .card {
+  background-color: rgba(79, 157, 166, 0.1);
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.mission-vission-goals .target-point .card-vission {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+.mission-vission-goals .target-point .card-goals {
+  background-color: #fff4d6;
+}
+.mission-vission-goals .target-point .card h3 {
+  color: #000000;
+  margin-bottom: 5px;
+}
+.mission-vission-goals .target-point .card p {
+  color: #424242;
+  font-size: 0.9rem;
+}
+
+/* start  Develope Without Limits section 
+
+                and  
+
+start Know our Global Community section
+
+*/
+
+.devolope-without-limits,
+.Know-our-Global-Community {
+  margin-top: 100px;
+}
+
+.devolope-without-limits .project,
+.Know-our-Global-Community .project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.project .project-img img {
+  width: 300px;
+}
+.project .project-img {
+  position: relative;
+}
+.project .project-devolop-img::after {
+  content: "";
+  background-image: url("../images/shapes/shape-1.png");
+  background-size: cover;
+  position: absolute;
+  top: 40px;
+  left: -70px;
+  width: 150px;
+  height: 150px;
+  z-index: -1;
+}
+
+.project .project-coding-img::after {
+  content: "";
+  background-image: url("../images/shapes/shape-1.png");
+  background-size: cover;
+  position: absolute;
+  bottom: -40px;
+  right: -60px;
+  width: 150px;
+  height: 150px;
+  z-index: -1;
+}
+.project .project-content h2 {
+  color: #333333;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+.project .project-content p {
+  width: 700px;
+  color: #3e3e3e;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+
+/* footer Section Mission 2022 ======================================== */
+
+.Mission-2022 {
+  background-color: #000;
+  margin-top: 100px;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.Mission-2022 .footer-content h2 {
+  font-family: "Lobster", cursive;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.Mission-2022 .footer-content h2 span {
+  color: #ff5959;
+}
+
+.Mission-2022 .footer-content p {
+  font-size: 0.8rem;
+  color: #d9dbe1;
 }
